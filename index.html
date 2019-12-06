@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+  <meta charset="utf-8">
+  <title>IzzyERP - Merlion TI</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  
+  <!-- ** Plugins Needed for the Project ** -->
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
+  <!-- slick slider -->
+  <link rel="stylesheet" href="plugins/slick/slick.css">
+  <!-- themefy-icon -->
+  <link rel="stylesheet" href="plugins/themify-icons/themify-icons.css">
+  <!-- animation css -->
+  <link rel="stylesheet" href="plugins/animate/animate.css">
+  <!-- aos -->
+  <link rel="stylesheet" href="plugins/aos/aos.css">
+  <!-- venobox popup -->
+  <link rel="stylesheet" href="plugins/venobox/venobox.css">
+
+
+  <!-- Main Stylesheet -->
+  <link href="css/style.css" rel="stylesheet">
+  <!--Favicon-->
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+<!-- Libraries CSS Files -->
+<link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+<link href="lib/animate/animate.min.css" rel="stylesheet">
+<link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+<link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+<link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+  
+
+<!-- header -->
+<header class="fixed-top header">
+  <!-- top header -->
+  <div class="top-header py-2 bg-white">
+    <div class="container">
+      <div class="row no-gutters">
+        <div class="col-lg-4 text-center text-lg-left">
+          <a class="text-color mr-3" href="callto:+5561998403333"><strong>Contato: </strong>+55 (61) 9 9840 3333</a>
+          <ul class="list-inline d-inline">
+            <li class="list-inline-item mx-0"><a class="d-inline-block p-2 text-color" href="#"><i class="ti-facebook"></i></a></li>
+            <li class="list-inline-item mx-0"><a class="d-inline-block p-2 text-color" href="http://linkedin.com/company/merlion-ti" target="_blank"><i class="ti-linkedin"></i></a></li>
+          </ul>
+        </div>
+        <div class="col-lg-8 text-center text-lg-right">
+          <ul class="list-inline">
+           <!--<li class="list-inline-item"><a class="text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block" href="#" data-toggle="modal" data-target="#loginModal">Já é cliente? Faça Login</a></li>-->
+            <li class="list-inline-item"><a class="text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block" href="#" data-toggle="modal" data-target="#signupModal">Solicitar Orçamento</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- navbar -->
+  <div class="navigation w-100">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light p-0">
+        <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="logo"></a>
+        <button class="navbar-toggler rounded-0" type="button" data-toggle="collapse" data-target="#navigation"
+          aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navigation">
+          <ul class="navbar-nav ml-auto text-center">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item dropdown view">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                  aria-haspopup="true" aria-expanded="false">
+                  Módulos
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="teacher.html">Módulo Essencial</a>
+                  <a class="dropdown-item" href="teacher-single.html">SRM</a>
+                  <a class="dropdown-item" href="notice.html">Gestão de Patrimônio</a>
+                  <a class="dropdown-item" href="notice-single.html">Gestão Escolar</a>
+                  <a class="dropdown-item" href="research.html">Gestão Financeira</a>
+                  <a class="dropdown-item" href="scholarship.html">Gestão de Produtos e Serviços</a>
+                  <a class="dropdown-item" href="course-single.html">Gestão de Planejamento e Projeto</a>
+                  <a class="dropdown-item" href="event-single.html">ECM</a>
+                  <a class="dropdown-item" href="blog-single.html">CRM</a>
+                </div>
+              </li>
+            <li class="nav-item @@about">
+              <a class="nav-link" href="about.html">Sobre</a>
+            </li>
+            
+            <li class="nav-item @@contact">
+              <a class="nav-link" href="contact.html">Contato</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </div>
+</header>
+<!-- /header -->
+<!-- Modal
+<div class="modal fade" id="signupModal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content rounded-0 border-0 p-4">
+            <div class="modal-header border-0">
+                <h3>Register</h3>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="login">
+                    <form action="#" class="row">
+                        <div class="col-12">
+                            <input type="text" class="form-control mb-3" id="signupPhone" name="signupPhone" placeholder="Telefone">
+                        </div>
+                        <div class="col-12">
+                            <input type="text" class="form-control mb-3" id="signupName" name="signupName" placeholder="Nome">
+                        </div>
+                        <div class="col-12">
+                            <input type="email" class="form-control mb-3" id="signupEmail" name="signupEmail" placeholder="Email">
+                        </div>
+                        <div class="col-12">
+                            <input type="password" class="form-control mb-3" id="signupPassword" name="signupPassword" placeholder="Senha">
+                        </div>
+                        <div class="col-12">
+                            <button type="submit" class="btn btn-primary">SIGN UP</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>-->
+<!--Modal
+<div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content rounded-0 border-0 p-4">
+            <div class="modal-header border-0">
+                <h3>Login</h3>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form action="#" class="row">
+                    <div class="col-12">
+                        <input type="text" class="form-control mb-3" id="loginPhone" name="loginPhone" placeholder="Telefone">
+                    </div>
+                    <div class="col-12">
+                        <input type="text" class="form-control mb-3" id="loginName" name="loginName" placeholder="Nome">
+                    </div>
+                    <div class="col-12">
+                        <input type="password" class="form-control mb-3" id="loginPassword" name="loginPassword" placeholder="Senha">
+                    </div>
+                    <div class="col-12">
+                        <button type="submit" class="btn btn-primary">LOGIN</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div> 
+</div>-->
+
+<!-- hero slider -->
+<section class="hero-section overlay bg-cover" data-background="images/banner/banner-1.jpg">
+  <div class="container">
+    <div class="hero-slider">
+      <!-- slider item -->
+      <div class="hero-slider-item">
+        <div class="row">
+          <div class="col-md-8">
+            <h1 class="text-white" data-duration-in=".3" data-animation-in="fadeInLeft" data-delay-in=".1">IzzyERP</h1>
+            <p class="text-muted mb-4" data-duration-in=".3" data-animation-in="fadeInLeft" data-delay-in=".4"><strong>A Solução Izzy ERP é um Software WEB, desenvolvido para atender empresas dos mais variados segmentos, apresentando de forma simples funcionalidades que habitam o cotidiano dos departamentos das empresas.</strong></p>
+            <a href="contact.html" class="btn btn-primary" data-duration-in=".3" data-animation-in="fadeInLeft" data-delay-in=".7">Solicite um orçamento.</a>
+          </div>
+        </div>
+      </div>
+      <!-- slider item
+      <div class="hero-slider-item">
+        <div class="row">
+          <div class="col-md-8">
+            <h1 class="text-white" data-animation-out="fadeOutUp" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInDown" data-delay-in=".1">Your bright future is our mission</h1>
+            <p class="text-muted mb-4" data-animation-out="fadeOutUp" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInDown" data-delay-in=".4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor
+              incididunt ut labore et
+              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exer</p>
+            <a href="contact.html" class="btn btn-primary" data-animation-out="fadeOutUp" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInDown" data-delay-in=".7">Apply now</a>
+          </div>
+        </div>
+      </div>
+      slider item
+      <div class="hero-slider-item">
+        <div class="row">
+          <div class="col-md-8">
+            <h1 class="text-white" data-animation-out="fadeOutDown" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInUp" data-delay-in=".1">Your bright future is our mission</h1>
+            <p class="text-muted mb-4" data-animation-out="fadeOutDown" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInUp" data-delay-in=".4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor
+              incididunt ut labore et
+              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exer</p>
+            <a href="contact.html" class="btn btn-primary" data-animation-out="fadeOutDown" data-delay-out="5" data-duration-in=".3" data-animation-in="zoomIn" data-delay-in=".7">Apply now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>-->
+</section>
+<!-- /hero slider -->
+
+<!--Clientes-->
+<section id="clients" class="section-bg">
+
+  <div class="container">
+
+    <div class="section-header">
+      <h2 style="padding-bottom: 40px; text-align: center;">Nossos Clientes</h2>
+    </div>
+
+    <div class="row no-gutters clients-wrap clearfix wow fadeInUp">
+
+      <div class="col-lg-3 col-md-4 col-xs-6">
+        <div class="client-logo">
+          <img src="images/Clientes/Abra.jpeg" class="img-fluid" alt="">
+        </div>
+      </div>
+      
+      <div class="col-lg-3 col-md-4 col-xs-6">
+        <div class="client-logo">
+          <img src="images/Clientes/abrafrutas.jpeg" class="img-fluid" alt="">
+        </div>
+      </div>
+    
+      <div class="col-lg-3 col-md-4 col-xs-6">
+        <div class="client-logo">
+          <img src="images/Clientes/anapa.jpeg" class="img-fluid" alt="">
+        </div>
+      </div>
+      
+      <div class="col-lg-3 col-md-4 col-xs-6">
+        <div class="client-logo">
+          <img src="images/Clientes/CNA.jpeg" class="img-fluid" alt="">
+        </div>
+      </div>
+      
+      <div class="col-lg-3 col-md-4 col-xs-6">
+        <div class="client-logo">
+          <img src="images/Clientes/COOPLEM.jpeg" class="img-fluid" alt="">
+        </div>
+      </div>
+    
+      <div class="col-lg-3 col-md-4 col-xs-6">
+        <div class="client-logo">
+          <img src="images/Clientes/DF MADEIRA.jpeg" class="img-fluid" alt="">
+        </div>
+      </div>
+      
+      <div class="col-lg-3 col-md-4 col-xs-6">
+        <div class="client-logo">
+          <img src="images/Clientes/ESCA.jpeg" class="img-fluid" alt="">
+        </div>
+      </div>
+      
+      <div class="col-lg-3 col-md-4 col-xs-6">
+        <div class="client-logo">
+          <img src="images/Clientes/EVOLUCAO.jpeg" class="img-fluid" alt="">
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+<!--Clientes-->
+
+<!-- page title -->
+<section class="page-title-section overlay" data-background="images/banner/molecules2.jpg">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8">
+        <ul class="list-inline custom-breadcrumb">
+          <li class="list-inline-item"><a class="h2 text-primary font-secondary" href="@@page-link">Muito além do ERP</a></li>
+          <li class="list-inline-item text-white h3 font-secondary @@nasted"></li>
+        </ul>
+        <p class="text-lighten"><strong>Ações como Cadastros de Terceiros (Fornecedores, Clientes, Associados, Alunos, etc), Contratos, Bancos e Caixa, GED, Contas a Pagar e Receber e Gestão de Projetos são alguns dos módulos presentes na Solução. O Izzy tem como fundamento que todas as Transações devam ser auditadas, que toda operação do usuário possa ser refeita com o devido registro, e que todas as Transações possam ser baseadas em um Projeto ou Plano de Trabalho, mantendo rastreabilidade entre o Estratégico e Operacional.
+
+          Como Plataforma Tecnológica, possibilita aplicar as melhores práticas de Gestão, de forma integrada e dinâmica, com base em um Software leve, simples e prático, que apoie na execução das atividades diárias, aumentando a eficiência e eficácia dos colaboradores e gestores das Organizações. O IzzyERP é desenvolvido em PHP com base na Plataforma Dolibarr, Multiplataforma (Linux e Windows) e Múltiplos Bancos de Dados (MySQL e Postgres) e com melhoramentos da Merlion, como Domínios de Valores, Expressões Condicionais para Isolamento de Dados, 100% de Tradução em português, Validação de CPF/CNPJ, Multiempresa, Multipagamento, Conciliação de Boleto Bancário e Emissão de Nota Fiscal Eletrônica.</strong></p>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /page title -->
+
+<!--Serviços-->
+<section id="services" class="section-bg">
+  <div class="container">
+
+    <header class="section-header">
+      <h2 style="padding-bottom: 40px; text-align: center;">Serviços</h2>
+      <p>Confira aqui alguns de nossos serviços.</p>
+    </header>
+
+    <div class="row">
+
+      <div class="col-md-6 col-lg-5 offset-lg-1 wow bounceInUp" data-wow-duration="1.4s">
+        <div class="box">
+          <div class="icon"><i class="ion-android-desktop" style="color: #ff689b;"></i></div>
+          <h4 class="title"><a href="">Instalação da Plataforma</a></h4>
+          <p class="description">Instalação da Plataforma nos ambientes do Cliente contando com até 2 ambientes distintos, integração LDAP/AD, configuração SMTP inicialização do sistema para primeiro uso.</p>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-5 wow bounceInUp" data-wow-duration="1.4s">
+        <div class="box">
+          <div class="icon"><i class="ion-code-download" style="color: #e9bf06;"></i></div>
+          <h4 class="title"><a href="">Instalação de ADD-ON </a></h4>
+          <p class="description">Instalação dos Pacotes adicionais da Plataforma, como Boleto Bancário ou Nota Fiscal Eletrônica. </br>.</br>.      </p>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-5 offset-lg-1 wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
+        <div class="box">
+          <div class="icon"><i class="ion-code-working" style="color: #3fcdc7;"></i></div>
+          <h4 class="title"><a href="">Integração da Plataforma</a></h4>
+          <p class="description">Integração da Plataforma com outros sistemas do Cliente, tanto no consumo de informações de outros sistemas, como na liberação de informações para serem consumidas por outros sistemas.</p>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-5 wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
+        <div class="box">
+          <div class="icon"><i class="ion-android-options" style="color:#41cf2e;"></i></div>
+          <h4 class="title"><a href="">Parametrização de Módulos e Aplicações</a></h4>
+          <p class="description">Parametrização da Plataforma IzzyERP, para uso das funcionalidades disponibilizadas pela Plataforma.</br>.</br></p>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-5 offset-lg-1 wow bounceInUp" data-wow-delay="0.2s" data-wow-duration="1.4s">
+        <div class="box">
+          <div class="icon"><i class="ion-ios-world-outline" style="color: #d6ff22;"></i></div>
+          <h4 class="title"><a href="">Adaptação de Módulos e Aplicações</a></h4>
+          <p class="description">Adaptação de Módulos e Aplicações existentes, no ajuste de regras de negócios , rótulos, posicionamento de campos, layout de tela, mensagens e outras adaptações de baixo impacto, sem criação de novas aplicações, telas e funcionalidades.</p>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-5 wow bounceInUp" data-wow-delay="0.2s" data-wow-duration="1.4s">
+        <div class="box">
+          <div class="icon"><i class="ion-arrow-graph-up-right" style="color: #4680ff;"></i></div>
+          <h4 class="title"><a href="">Evolução da Plataforma</a></h4>
+          <p class="description">Evolução da Plataforma, customizando de acordo com as necessidades apresentadas pelo Cliente final, na criação de telas, aplicações, funcionalidades e regras de negócio específicas para a atividade final do Cliente.</br>.</p>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-5 offset-lg-1 wow bounceInUp" data-wow-delay="0.2s" data-wow-duration="1.4s">
+        <div class="box">
+          <div class="icon"><i class="ion-ios-body" style="color: #ff2222;"></i></div>
+          <h4 class="title"><a href="">Treinamento de Negócio</a></h4>
+          <p class="description">Treinamento para usuário final sobre o uso dos módulos e aplicaçõeso</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+<!-- Serviços -->
+
+
+<!-- courses -->
+<section class="section-sm" style="background: #ecf5ff;;">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="d-flex align-items-center section-title justify-content-between">
+          <h2 class="mb-0 text-nowrap mr-3">Módulos</h2>
+          <div class="border-top w-100 border-primary d-none d-sm-block"></div>
+          <div>
+            <a href="courses.html" class="btn btn-sm btn-primary-outline ml-sm-3 d-none d-sm-block">Ver detalhes</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- course list -->
+<div class="row justify-content-center">
+  <!-- course item -->
+  <div class="col-lg-4 col-sm-6 mb-5">
+    <div class="card p-0 border-primary rounded-0 hover-shadow">
+      <img class="card-img-top rounded-0" src="images/courses/essencial.jpg" alt="Módulo Essencial">
+      <div class="card-body">
+        <a href="course-single.html">
+          <h4 class="card-title">Módulo Essencial</h4>
+        </a>
+        <a href="course-single.html" class="btn btn-primary btn-sm">Saiba mais</a>
+      </div>
+    </div>
+  </div>
+ <!-- course item -->
+ <div class="col-lg-4 col-sm-6 mb-5">
+  <div class="card p-0 border-primary rounded-0 hover-shadow">
+    <img class="card-img-top rounded-0" src="images/courses/fornecedor.jpg" alt="Gestão de Relacionamento com o Fornecedor – SRM">
+    <div class="card-body">
+      <a href="course-single.html">
+        <h4 class="card-title">Gestão de Relacionamento com o Fornecedor – SRM</h4>
+      </a>
+        <a href="course-single.html" class="btn btn-primary btn-sm">Saiba mais</a>
+    </div>
+  </div>
+</div>
+ <!-- course item -->
+ <div class="col-lg-4 col-sm-6 mb-5">
+  <div class="card p-0 border-primary rounded-0 hover-shadow">
+    <img class="card-img-top rounded-0" src="images/courses/gestao_de_patrimonio.jpg" alt="Gestao de patrimonio">
+    <div class="card-body">
+      <a href="course-single.html">
+        <h4 class="card-title">Gestão de Patrimônio</h4>
+      </a>
+        <a href="course-single.html" class="btn btn-primary btn-sm">Saiba mais</a>
+    </div>
+  </div>
+</div>
+  <!-- course item -->
+  <div class="col-lg-4 col-sm-6 mb-5">
+    <div class="card p-0 border-primary rounded-0 hover-shadow">
+      <img class="card-img-top rounded-0" src="images/courses/escolar.jpg" alt="Gestão Escolar">
+      <div class="card-body">
+        <a href="course-single.html">
+          <h4 class="card-title">Gestão Escolar</h4>
+        </a>
+        <a href="course-single.html" class="btn btn-primary btn-sm">Saiba mais</a>
+      </div>
+    </div>
+  </div>
+   <!-- course item -->
+  <div class="col-lg-4 col-sm-6 mb-5">
+    <div class="card p-0 border-primary rounded-0 hover-shadow">
+      <img class="card-img-top rounded-0" src="images/courses/gestao_financeira.jpg" alt="Gestao Financeira">
+      <div class="card-body">
+        <a href="course-single.html">
+          <h4 class="card-title">Gestão Financeira</h4>
+        </a>
+        <a href="course-single.html" class="btn btn-primary btn-sm">Saiba mais</a>
+      </div>
+    </div>
+  </div>
+ <!-- course item -->
+ <div class="col-lg-4 col-sm-6 mb-5">
+  <div class="card p-0 border-primary rounded-0 hover-shadow">
+    <img class="card-img-top rounded-0" src="images/courses/produtos_servicos.jpg" alt="Gestão de Produtos e Serviços">
+    <div class="card-body">
+      <a href="course-single.html">
+        <h4 class="card-title">Gestão de Produtos e Serviços</h4>
+      </a>
+      <a href="course-single.html" class="btn btn-primary btn-sm">Saiba mais</a>
+    </div>
+  </div>
+</div>
+  <!-- course item -->
+  <div class="col-lg-4 col-sm-6 mb-5">
+    <div class="card p-0 border-primary rounded-0 hover-shadow">
+      <img class="card-img-top rounded-0" src="images/courses/planejamento_e_projeto.jpg" alt="Planejamento e Projetos">
+      <div class="card-body">
+        <a href="course-single.html">
+          <h4 class="card-title">Gestão de Planejamento e Projeto</h4>
+        </a>
+          <a href="course-single.html" class="btn btn-primary btn-sm">Saiba mais</a>
+      </div>
+    </div>
+  </div>
+  <!-- course item -->
+  <div class="col-lg-4 col-sm-6 mb-5">
+    <div class="card p-0 border-primary rounded-0 hover-shadow">
+      <img class="card-img-top rounded-0" src="images/courses/ECM.jpg" alt="Gestão de Conteúdo Eletrônico - ECM">
+      <div class="card-body">
+        <a href="course-single.html">
+          <h4 class="card-title">Gestão de Conteúdo Eletrônico - ECM</h4>
+        </a>
+          <a href="course-single.html" class="btn btn-primary btn-sm">Saiba mais</a>
+      </div>
+    </div>
+  </div>
+   <!-- course item -->
+   <div class="col-lg-4 col-sm-6 mb-5">
+    <div class="card p-0 border-primary rounded-0 hover-shadow">
+      <img class="card-img-top rounded-0" src="images/courses/CRM.jpg" alt="Gestão de Relacionamento com o Cliente – CRM">
+      <div class="card-body">
+        <a href="course-single.html">
+          <h4 class="card-title">Gestão de Relacionamento com o Cliente – CRM</h4>
+        </a>
+          <a href="course-single.html" class="btn btn-primary btn-sm">Saiba mais</a>
+      </div>
+    </div>
+  </div>
+   <!-- course item -->
+   <div class="col-lg-4 col-sm-6 mb-5">
+    <div class="card p-0 border-primary rounded-0 hover-shadow">
+      <img class="card-img-top rounded-0" src="images/courses/recursos_humanos.jpg" alt="Gestão de Recursos Humanos">
+      <div class="card-body">
+        <a href="course-single.html">
+          <h4 class="card-title">Gestão de Recursos Humanos</h4>
+        </a>
+          <a href="course-single.html" class="btn btn-primary btn-sm">Saiba mais</a>
+      </div>
+    </div>
+  </div>
+   <!-- course item -->
+   <div class="col-lg-4 col-sm-6 mb-5">
+    <div class="card p-0 border-primary rounded-0 hover-shadow">
+      <img class="card-img-top rounded-0" src="images/courses/websites.jpg" alt="Websites e outras aplicações frontend">
+      <div class="card-body">
+        <a href="course-single.html">
+          <h4 class="card-title">Websites e outras aplicações frontend</h4>
+        </a>
+          <a href="course-single.html" class="btn btn-primary btn-sm">Saiba mais</a>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- /course list -->
+    <!-- mobile see all button -->
+    <div class="row">
+      <div class="col-12 text-center">
+        <a href="courses.html" class="btn btn-sm btn-primary-outline d-sm-none d-inline-block">Ver Detalhes</a>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /courses -->
+
+<!-- cta -->
+<section class="hero-section overlay bg-cover" data-background="images/banner/city.jpg">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+
+        <h2 class="section-title text-white">ENTENDEMOS SEU SEGMENTO TÃO BEM QUANTO VOCÊ.</h2>
+        <a href="contact.html" class="btn btn-secondary">Solicitar Orçamento</a>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /cta -->
+
+
+
+<!-- footer -->
+<footer>
+  <!-- newsletter -->
+  <div class="newsletter">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-9 ml-auto bg-primary py-5 newsletter-block">
+          <h3 class="text-white">Dúvidas?</h3>
+          <form action="#">
+            <div class="input-wrapper">
+              <input type="email" class="form-control border-0" id="newsletter" name="newsletter" placeholder="E-mail">
+              <button type="submit" value="send" class="btn btn-primary">Solicitar contato</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- footer content -->
+  <div class="footer bg-footer section border-bottom">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-sm-8 mb-5 mb-lg-0">
+          <!-- logo -->
+          <a class="logo-footer" href="index.html"><img class="img-fluid mb-4" src="images/logo.png" alt="logo"></a>
+          <ul class="list-unstyled">
+            <li class="mb-2">+55 (61) 9 9840 3333</li>
+            <li class="mb-2">contato@merlion-si.com.br</li>
+          </ul>
+        </div>
+        <!-- company -->
+        <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-5 mb-md-0">
+          <h4 class="text-white mb-5">O IzzyERP</h4>
+          <ul class="list-unstyled">
+            <li class="mb-3"><a class="text-color" href="#sobre">Sobre</a></li>
+            <li class="mb-3"><a class="text-color" href="#modulos">Módulos</a></li>
+            <li class="mb-3"><a class="text-color" href="contact.html">Contato</a></li
+          </ul>
+        </div>
+        
+        <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-5 mb-md-0">
+          <h4 class="text-white mb-5">Recomendado</h4>
+          <ul class="list-unstyled">
+            <li class="mb-3"><a class="text-color" href="#">Merlion TI</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- copyright -->
+  <div class="copyright py-4 bg-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-7 text-sm-left text-center">
+          <p class="mb-0">Copyright
+            <script>
+              var CurrentYear = new Date().getFullYear()
+              document.write(CurrentYear)
+            </script> 
+            © Um Software<a href="https://themefisher.com"> Merlion TI.</a></p>Todos os direitos reservados.
+        </div>
+        <div class="col-sm-5 text-sm-right text-center">
+          <ul class="list-inline">
+            <li class="list-inline-item"><a class="d-inline-block p-2" href="https://www.facebook.com/themefisher"><i class="ti-facebook text-primary"></i></a></li>
+            <li class="list-inline-item mx-0"><a class="d-inline-block p-2" href="#"><i class="ti-linkedin"></i></a></li>
+
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- /footer -->
+
+<!-- jQuery -->
+<script src="plugins/jQuery/jquery.min.js"></script>
+<!-- Bootstrap JS -->
+<script src="plugins/bootstrap/bootstrap.min.js"></script>
+<!-- slick slider -->
+<script src="plugins/slick/slick.min.js"></script>
+<!-- aos -->
+<script src="plugins/aos/aos.js"></script>
+<!-- venobox popup -->
+<script src="plugins/venobox/venobox.min.js"></script>
+<!-- mixitup filter -->
+<script src="plugins/mixitup/mixitup.min.js"></script>
+<!-- google map -->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&libraries=places"></script>
+<script src="plugins/google-map/gmap.js"></script>
+
+<!-- Main Script -->
+<script src="js/script.js"></script>
+<script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+
+</body>
+</html>
