@@ -24,6 +24,23 @@ body {
   color: #5c5c77;
 }
 
+.site-section {
+  padding: 2.5em 0; }
+  @media (min-width: 768px) {
+    .site-section {
+      padding: 7em 0; } }
+  .site-section.site-section-sm {
+    padding: 4em 0; }
+
+.site-section-heading {
+  padding-bottom: 20px;
+  margin-bottom: 0px;
+  position: relative;
+  font-size: 2.5rem; }
+  @media (min-width: 768px) {
+    .site-section-heading {
+      font-size: 3rem; } }
+
 p, .paragraph {
   font-weight: 400;
   color: #5c5c77;
@@ -764,7 +781,7 @@ textarea.form-control {
 }
 
 .navigation {
-  background-image: linear-gradient(to right, transparent 50%, #007bff 50%);
+  background-image: linear-gradient(to right, #ffffffed, #007bff 50%);
   transition: .2s ease;
 }
 
